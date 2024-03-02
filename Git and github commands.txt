@@ -1,0 +1,62 @@
+What is Git?
+               mainy it is used for :
+                                                Tracking code changes
+                                                Tracking who made changes
+                                               Coding collaboration
+ What does Git do?
+                      Manage projects with Repositories
+                      Branch and Merge to allow for work on different parts and versions of a project
+                      Pull the latest version of the project to a local copy
+                      Push local updates to the main project
+
+Working with Git
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit
+
+
+example : git --version
+git version 2.30.2.windows.1
+
+2:to clone repository                 3:to configure git
+git clone <url>                                           git config --global user.name "preethi123-23"
+                                                                     git config --global user.email "preethikm2308@gmail.com"
+
+
+4:move to created folder
+cd foldername
+
+ 5:to check the status of file
+git status
+
+ 6:To add new file to github
+git add new file name
+
+7:To add message
+git commit -m "message"
+
+8:The git push command is used to upload local repository content to a remote repository.
+git push orgin main
+
+9:Initialized empty git repository
+git init
+
+10:Move all modified file to staging area
+git add.
+
+11:to change branch name
+git branch -M main
+
+12:list the branches
+git branch -a
+
+What is GitHub?
+Git is not the same as GitHub.
+GitHub makes tools that use Git.
+GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+In this tutorial, we will focus on using Git with GitHub.
